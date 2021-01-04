@@ -11,7 +11,7 @@ class Login extends React.Component {
             email: '',
             password: '',
             hasAccount: false,
-            name: '',
+            key: '',
             value: ''
         }
     }
@@ -42,9 +42,9 @@ class Login extends React.Component {
     }
 
     sendData = () => {
-        const {name, value} = this.state;
+        const {key, value} = this.state;
         const db = firebase.database();
-        db.ref(name).push(value);
+        db.ref(key).push(value);
         alert("Your data was send");
     }
 
@@ -56,7 +56,7 @@ class Login extends React.Component {
                 {
                     hasAccount ?
                         <div>
-                            <input type="text" id={"name"} placeholder={"enter key"} onChange={this.handleChange}/>
+                            <input type="text" id={"key"} placeholder={"enter key"} onChange={this.handleChange}/>
                             <input type="text" id={"value"} placeholder={"enter value"} onChange={this.handleChange}/>
                             <input type="submit" placeholder={"Отправить"} onClick={this.sendData}/>
                         </div>
