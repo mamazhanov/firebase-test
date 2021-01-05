@@ -44,7 +44,7 @@ class Login extends React.Component {
     sendData = () => {
         const {key, value} = this.state;
         const db = firebase.database();
-        db.ref(key).push(value);
+        db.ref("pzd").push("value");
         alert("Your data was send");
     }
 
@@ -56,12 +56,14 @@ class Login extends React.Component {
                 {
                     hasAccount ?
                         <div>
+                            dats
                             <input type="text" id={"key"} placeholder={"enter key"} onChange={this.handleChange}/>
                             <input type="text" id={"value"} placeholder={"enter value"} onChange={this.handleChange}/>
                             <input type="submit" placeholder={"Отправить"} onClick={this.sendData}/>
                         </div>
                         :
                         <div className={style.login_block}>
+                            not db
                             <input type="email" id={"email"} placeholder={"Email"} onChange={this.handleChange} />
                             <input type="password" id={"password"} placeholder={"Password"}  onChange={this.handleChange}/>
                             <input type="submit" value={"Отправить"} onClick={this.createAccount} />
