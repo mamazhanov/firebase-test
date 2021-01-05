@@ -27,16 +27,16 @@ const LoginFunc = () => {
     const add = () => {
         db.ref("users/"+localData.login).update(localData);
         console.log(localData)
-        // var disorder = {'AXyyXA':{'description': '8888 deficit...'}};
+        // var disorder = {undefined:{'description': '89897 deficit...'}};
         // db.ref('users').update(disorder);
     }
 
     return (
         <div>
             <div>
-                <input type="text" onChange={nameChange}/>
-                <input type="text" onChange={locationChange}/>
-                <input type="text" onChange={loginChange}/>
+                <input type="text" placeholder={"Enter full name"} onChange={nameChange}/>
+                <input type="text" placeholder={"Enter location"} onChange={locationChange}/>
+                <input type="text" placeholder={"Enter login"} onChange={loginChange}/>
                 <input type="submit" onClick={add}/>
             </div>
         </div>
