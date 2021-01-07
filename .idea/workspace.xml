@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="353c709c-7763-4e42-890e-7cf4a7087497" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/myDB.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LoginFunc/LoginFunc.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginFunc/LoginFunc.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../app.html" />
+    <property name="last_opened_file_path" value="D:/my-app" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -59,6 +62,8 @@
       <workItem from="1609645703298" duration="6103000" />
       <workItem from="1609862569449" duration="1096000" />
       <workItem from="1609863746166" duration="9257000" />
+      <workItem from="1609901216164" duration="12291000" />
+      <workItem from="1609988190509" duration="1409000" />
     </task>
     <task id="LOCAL-00001" summary="ADD FUNCTIONAL COMPONENT">
       <created>1609872675707</created>
